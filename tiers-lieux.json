@@ -128,7 +128,7 @@
                     "options":{
 	                    "0":"Pas de résilience",
 	                    "20":"Un peu de résilience",
-	                    "40":"Résilience effetive,
+	                    "40":"Résilience effetive",
 						"60":"Avancée",
 						"80":"Très avancée",
 						"100":"Totale"
