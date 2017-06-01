@@ -1,11 +1,11 @@
 {
-	"partage" : {
+	"communaute" : {
         "jsonSchema" : {
-            "title" : "Partage",
+            "title" : "Configuration sociale",
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":" Quels sont les communs proches ou similaires ? Ont il été contactés pour essayer de mutualiser avec eux ? Comment le commun est travaillé pour favoriser sa réplication, sa diffusion ?"
+                    "title":"1- Quel est l'état de maturité de votre communauté tiers-lieux ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -16,24 +16,24 @@
                     "inputType" : "select",
                     "placeholder" : "---- Select a value ----",
                     "options":{
-	                    "0":"Ne souhaite pas",
-	                    "20":"Pas applicable",
-	                    "40":"Souhait mais pas démarré",
-						"60":"Démarré",
-						"80":"En progression",
-						"100":"Réalisé"
+	                    "0":"Communauté non constituée",
+	                    "20":"Communauté en émergence,
+	                    "40":"Commuanuté en consolidation",
+						"60":"Avancée",
+						"80":"Très avancée",
+						"100":"Aboutie"
                     }
                 }
             }
         }
     },
-	"gouvernance" : {
+	"patrimoine" : {
          "jsonSchema" : {
-            "title" : "Gouvernance",
+            "title" : "Patrimoine commun",
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"Comment est pensée la gouvernance pour permettre à tous de s'approprier le commun sans pour autant réduire l'initiative individuelle ?"
+                    "title":"2- Quel est l'état de maturité de votre patrimoine commun ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -44,24 +44,23 @@
                     "inputType" : "select",
                     "placeholder" : "---- Select a value ----",
                     "options":{
-	                    "0":"Ne souhaite pas",
-	                    "20":"Pas applicable",
-	                    "40":"Souhait mais pas démarré",
-						"60":"Démarré",
-						"80":"En progression",
-						"100":"Réalisé"
-                    }
+	                    "0":"Patrimoine non constitué",
+	                    "20":"Patrimoine en émergence",
+	                    "40":"Patrimoine en consolidation",
+						"60":"Avancée",
+						"80":"Très avancée",
+						"100":"Abouti"
                 }
             }
         }
     },
-	"partenaires" : {
+	"appropriation" : {
          "jsonSchema" : {
-            "title" : "Partenaires",
+            "title" : "Libre appropriation",
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"Quelle manière le commun a t'il de nouer des partenariats avec des acteurs privés et publics ? Quelles approches utilisées ?"
+                    "title":"3- Dans quelle mesure votre tiers-lieux permet l'appropriation ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -72,24 +71,23 @@
                     "inputType" : "select",
                     "placeholder" : "---- Select a value ----",
                     "options":{
-	                    "0":"Ne souhaite pas",
-	                    "20":"Pas applicable",
-	                    "40":"Souhait mais pas démarré",
-						"60":"Démarré",
-						"80":"En progression",
-						"100":"Réalisé"
-                    }
-				}
+	                    "0":"Pas d'appropriation",
+	                    "20":"Un peu d'appropriation ",
+	                    "40":"Appropriation effective ",
+						"60":"Avancée",
+						"80":"Très avancée",
+						"100":"Totale"
+              }
             }
         }
-	},
-	"juridique" : {
+    },	
+	"emancipation" : {
          "jsonSchema" : {
-            "title" : "Juridique",
+            "title" : "Emancipation par le faire",
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"Quels choix juridique pour protéger le caractère commun du projet ?"
+                    "title":"4- Dans quelle mesure votre tiers-lieux soutient l'émancipation ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -100,24 +98,24 @@
                     "inputType" : "select",
                     "placeholder" : "---- Select a value ----",
                     "options":{
-	                    "0":"Ne souhaite pas",
-	                    "20":"Pas applicable",
-	                    "40":"Souhait mais pas démarré",
-						"60":"Démarré",
-						"80":"En progression",
-						"100":"Réalisé"
+	                    "0":"Émancipation impossible",
+	                    "20":"Émancipation balbutiante",
+	                    "40":"Émancipation effective",
+						"60":"Avancée",
+						"80":"Très avancée",
+						"100":"Totale"
                     }
                 }
             }
         }
     },
-	"finance": {
+	"resilience": {
         "jsonSchema" : {
-            "title" : "Financement",
+            "title" : "Resilience et Modularité",
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"Quelle logique de financement par les usagers et partenaires ainsi que de redistribution financière dans le commun ?"
+                    "title":"Dans quelle mesure votre tiers-lieux s'adapte aux pratiques des membres ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -128,40 +126,12 @@
                     "inputType" : "select",
                     "placeholder" : "---- Select a value ----",
                     "options":{
-	                    "0":"Ne souhaite pas",
-	                    "20":"Pas applicable",
-	                    "40":"Souhait mais pas démarré",
-						"60":"Démarré",
-						"80":"En progression",
-						"100":"Réalisé"
-                    }
-                }
-            }
-        }
-	},
-	"contribution" : {
-         "jsonSchema" : {
-            "title" : "Contribution",
-            "type" : "object",
-            "properties" : {
-                "separator1":{
-                    "title":"Comment le projet permet il la contribution à tous et sur le long terme ? Quels moyens pour rendre visibles les actions ?"
-                },
-                "description" : {
-                    "inputType" : "textarea",
-                    "placeholder" : "Description",
-                    "class" : "description6"
-                },
-                "value" : {
-                    "inputType" : "select",
-                    "placeholder" : "---- Select a value ----",
-                    "options":{
-	                    "0":"Ne souhaite pas",
-	                    "20":"Pas applicable",
-	                    "40":"Souhait mais pas démarré",
-						"60":"Démarré",
-						"80":"En progression",
-						"100":"Réalisé"
+	                    "0":"Pas de résilience",
+	                    "20":"Un peu de résilience",
+	                    "40":"Résilience effetive,
+						"60":"Avancée",
+						"80":"Très avancée",
+						"100":"Totale"
                     }
                 }
             }
