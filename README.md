@@ -1,6 +1,6 @@
 # Label tiers-lieux (attribué entre pairs)
 
-- Ce dépôt est une tentative d'adaptation des "auto-labels" proposés par [Communecter](http://communecter.org) aux configurations [tiers-lieux](http://movilab.org/index.php?title=Définition_des_Tiers_Lieux).
+- Ce dépôt est une tentative d'adaptation des "auto-labels" proposés par [Communecter](http://communecter.org) aux [tiers-lieux](http://movilab.org/index.php?title=Définition_des_Tiers_Lieux).
 
 - L'intention de ce 'label' est de faciliter la reconnaissance des excellences des différents tiers-lieux par les praticien.ne.s. Il repose sur le 'diagnostic' de 5 **propriétés fondamentales d'organisation** (cf. [Fork The World](https://nicolasloubet.gitbooks.io/fork-the-world)).
 
