@@ -8,7 +8,7 @@ Propriété | Question(s)
 ------------ | -------------
 **Configuration** | Les individus s’organisent-ils librement ? Les rapports entre pairs sont-il guidés par la réciprocité ?
 **Patrimoine** | L’organisation se donne-t-elle les moyens de pérenniser la connaissance produite au travers de ses activités ? Est-elle régie par des licences juridiques qui favorisent l'appropriation/la réciprocité ?
-**Appropriation** | Les membres de l’organisation ont-il règles pour contrôler/valider ce qui est conçu/fabriqué ?
+**Appropriation** | Les membres de l’organisation ont-il des règles pour contrôler/valider ce qui est conçu/fabriqué ?
 **Émancipation** | Les membres de l’organisation se donnent-ils les moyens de se prendre en charge (ensemble) ?
 **Résilience** | Les membres de l’organisation sont-ils capables de se reconfigurer si les conditions changent ?
   
