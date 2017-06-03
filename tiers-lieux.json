@@ -1,11 +1,11 @@
 {
-	"communaute" : {
+	"configuration" : {
         "jsonSchema" : {
             "title" : "Configuration sociale",
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"1- Quel est l'état de maturité de votre communauté tiers-lieux ?"
+                    "title":"Les individus s’organisent-ils librement ? Les rapports entre pairs sont-il guidés par la réciprocité ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -16,9 +16,9 @@
                     "inputType" : "select",
                     "placeholder" : "---- Select a value ----",
                     "options":{
-	                    "0":"Communauté non constituée",
-	                    "20":"Communauté en émergence",
-	                    "40":"Commuanuté en consolidation",
+	                    "0":"Configuration inexistante",
+	                    "20":"Configuration en émergence",
+	                    "40":"Configuration en consolidation",
 						"60":"Avancée",
 						"80":"Très avancée",
 						"100":"Aboutie"
@@ -33,7 +33,7 @@
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"2- Quel est l'état de maturité de votre patrimoine commun ?"
+                    "title":"L’organisation se donne-t-elle les moyens de pérenniser la connaissance produite au travers de ses activités ? Est-elle régie par des licences juridiques qui favorisent l'appropriation/la réciprocité ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -49,7 +49,7 @@
 	                    "40":"Patrimoine en consolidation",
 						"60":"Avancée",
 						"80":"Très avancée",
-						"100":"Abouti"
+						"100":"Aboutie"
                 }
             }
         }
@@ -60,7 +60,7 @@
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"3- Dans quelle mesure votre tiers-lieux permet l'appropriation ?"
+                    "title":"Les membres de l’organisation ont-il des règles pour contrôler/valider ce qui est conçu/fabriqué ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -71,12 +71,12 @@
                     "inputType" : "select",
                     "placeholder" : "---- Select a value ----",
                     "options":{
-	                    "0":"Pas d'appropriation",
-	                    "20":"Un peu d'appropriation ",
-	                    "40":"Appropriation effective ",
-						"60":"Avancée",
-						"80":"Très avancée",
-						"100":"Totale"
+	                    "0":"Aucune(s) règle(s)",
+	                    "20":"Quelques règles ",
+	                    "40":"Règles éprouvées ",
+						"60":"Stabilisés",
+						"80":"Très stabilisés",
+						"100":"Acquises"
               }
             }
         }
@@ -87,7 +87,7 @@
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"4- Dans quelle mesure votre tiers-lieux soutient l'émancipation ?"
+                    "title":"Les membres de l’organisation se donnent-ils les moyens de se prendre en charge (ensemble) ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -98,12 +98,12 @@
                     "inputType" : "select",
                     "placeholder" : "---- Select a value ----",
                     "options":{
-	                    "0":"Émancipation impossible",
+	                    "0":"Émancipation inexistante",
 	                    "20":"Émancipation balbutiante",
-	                    "40":"Émancipation effective",
+	                    "40":"Émancipation en cours",
 						"60":"Avancée",
 						"80":"Très avancée",
-						"100":"Totale"
+						"100":"Aboutie"
                     }
                 }
             }
@@ -115,7 +115,7 @@
             "type" : "object",
             "properties" : {
                 "separator1":{
-                    "title":"Dans quelle mesure votre tiers-lieux s'adapte aux pratiques des membres ?"
+                    "title":"Les membres de l’organisation sont-ils capables de se reconfigurer si les conditions changent ?"
                 },
                 "description" : {
                     "inputType" : "textarea",
@@ -128,7 +128,7 @@
                     "options":{
 	                    "0":"Pas de résilience",
 	                    "20":"Un peu de résilience",
-	                    "40":"Résilience effetive",
+	                    "40":"Résilience en maturation",
 						"60":"Avancée",
 						"80":"Très avancée",
 						"100":"Totale"
