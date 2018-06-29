@@ -2,7 +2,7 @@
 
 - Ce dépôt GitHub est une tentative d'adaptation aux [tiers-lieux](http://movilab.org/index.php?title=Définition_des_Tiers_Lieux) des "auto-labels" imaginés par [Communecter](http://communecter.org).
 
-- L'intention est de faciliter la reconnaissance des excellences des différents communautés tiers-lieux par les praticien.ne.s. Il repose sur un 'diagnostic' de 5 **propriétés fondamentales d'organisation** (cf. [Fork The World](https://nicolasloubet.gitbooks.io/fork-the-world)).
+- La **proposition** est de faciliter - par / pour les praticien.ne.s - la reconnaissance des "excellences" des communautés tiers-lieux sur la base d'un 'diagnostic' de 5 **propriétés fondamentales d'organisation** (cf. [Fork The World](https://nicolasloubet.gitbooks.io/fork-the-world)).
 
 Propriété | Question(s)
 ------------ | -------------
