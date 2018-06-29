@@ -1,4 +1,4 @@
-# Label tiers-lieux (attribué entre pairs)
+# Diagnostic tiers-lieux (accordé entre pairs)
 
 - Ce dépôt GitHub est une tentative d'adaptation aux [tiers-lieux](http://movilab.org/index.php?title=Définition_des_Tiers_Lieux) des "auto-labels" imaginés par [Communecter](http://communecter.org).
 
